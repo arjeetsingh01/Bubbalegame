@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+.main{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(155,184,155);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.panel{
+  height: 80%;
+  width: 80%;
+  background-color: aliceblue;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.topanel{
+  padding: 0 20%;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(17, 122, 17);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: wheat;
+}
+.elm{
+  display: flex;
+  /* background-color: aqua; */
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.elm h2{
+  font-size: 25px;
+  font-weight: 500;
+}
+.box{
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+  color: rgb(122, 228, 81);
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+}
+.btmpanel{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  height: calc(100% - 100px);
+  /* background-color: aquamarine; */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buble{
+  width: 40px;
+  height: 40px;
+  background-color: rgb(39, 216, 69);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+}
+.buble:hover{
+  background-color: green;
+  cursor: pointer;
+}
